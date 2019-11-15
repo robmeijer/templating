@@ -1,0 +1,28 @@
+{
+    "name": "robm/templating",
+    "description": "A templating package for rendering template files.",
+    "homepage": "https://github.com/robmeijer/templating",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Rob Meijer",
+            "email": "email@robmeijer.co.uk",
+            "homepage": "https://robmeijer.co.uk",
+            "role": "Developer"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "RobM\\Templating\\": "src/"
+        }
+    },
+    "require": {
+        "php": "^7.1",
+        "symfony/templating": "^4.3",
+        "symfony/twig-bridge": "^4.3",
+        "twig/twig": "^2.12"
+    },
+    "require-dev": {
+        "roave/security-advisories": "dev-master"
+    }
+}
